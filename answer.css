@@ -1,31 +1,46 @@
+/* Styles for the body */
+body {
+    width: 800px; /* Sets the width of the body to 800 pixels */
+}
 
-.headerH2{
-        font-size: 170%;
-        color: #800000;
-        text-indent: 30px;
-    }
-    
-    .headerH3{
-        font-size: 130%;
-        font-style: italic;
-        text-indent: 30px
-    }
-    
-    h1
-    {
-        font-size : 150%;
-    }
-    h2
-    {
-        font-size: 130%;
-        color:#800000;
-    }
-    h3{
-        font-size: 105%;
-    }
-    #foot{
-        margin:auto;
-    }
-    .shadow{
-        text-shadow: 2px 2px #800000;
-    }
+/* Styles for the section */
+section {
+    width: 525px; /* Sets the width of the section to 525 pixels */
+    float: right; /* Floats the section to the right */
+    padding: 0 20px 20px 20px; /* Sets padding: top-right-bottom-left */
+}
+
+/* Styles for the aside */
+aside {
+    width: 215px; /* Sets the width of the aside to 215 pixels */
+    float: right; /* Floats the aside to the right */
+    padding: 0 0 20px 0; /* Sets padding: top-right-bottom-left */
+}
+
+/* Styles for the h2 headings */
+section h2,
+aside h2 {
+    /* Add your styles for h2 headings in section and aside */
+}
+
+/* Styles for the footer */
+footer {
+    clear: both; /* Clears floating elements */
+}
+
+/* Styles for the h1 element */
+h1 {
+    font-size: 150%; /* Sets font size to 150% */
+    padding-top: 0.5em; /* Sets top padding to 0.5 ems */
+    padding-bottom: 0.25em; /* Sets bottom padding to 0.25 ems */
+    margin: 0; /* Sets margins to 0 */
+}
+
+/* Styles for the image in the article */
+article img {
+    float: right; /* Floats the image to the right */
+    margin: 10px; /* Sets margins around the image */
+    border: 1px solid black; /* Adds a 1-pixel black border to the image */
+}
+
+

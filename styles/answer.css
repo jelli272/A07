@@ -1,4 +1,49 @@
 
+body {
+    width: 800px;
+}
+
+section {
+    width: 525px;
+    float: right;
+    padding: 20px 20px 20px 20px;
+}
+
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 20px 20px 20px;
+}
+
+footer {
+    clear: both;
+}
+main {
+    padding: 0;
+}
+section h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+aside h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+h1 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
+}
+
+article img {
+    float: right;
+    margin: 10px 0 10px 10px; /* Adjust margins as needed */
+    border: 1px solid #000; /* Add a black border */
+}
 .headerH2{
         font-size: 170%;
         color: #800000;

@@ -44,33 +44,3 @@ article img {
     margin: 10px 0 10px 10px; /* Adjust margins as needed */
     border: 1px solid #000; /* Add a black border */
 }
-.headerH2{
-        font-size: 170%;
-        color: #800000;
-        text-indent: 30px;
-    }
-    
-    .headerH3{
-        font-size: 130%;
-        font-style: italic;
-        text-indent: 30px
-    }
-    
-    h1
-    {
-        font-size : 150%;
-    }
-    h2
-    {
-        font-size: 130%;
-        color:#800000;
-    }
-    h3{
-        font-size: 105%;
-    }
-    #foot{
-        margin:auto;
-    }
-    .shadow{
-        text-shadow: 2px 2px #800000;
-    }
